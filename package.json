@@ -1,0 +1,23 @@
+{
+  "name": "sample-application-khalid",
+  "version": "1.0.0",
+  "description": "This is a testing repo for a sample application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freelancing-devops/sample-application-khalid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Freelancing-devops/sample-application-khalid/issues"
+  },
+  "homepage": "https://github.com/Freelancing-devops/sample-application-khalid#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
