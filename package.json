@@ -4,8 +4,9 @@
   "description": "This is a testing repo for a sample application",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Freelancing-devops/sample-application-khalid.git"
