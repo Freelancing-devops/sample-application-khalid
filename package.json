@@ -4,6 +4,7 @@
   "description": "This is a testing repo for a sample application",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js"    
     "test": "jest --passWithNoTests"
   },
 
