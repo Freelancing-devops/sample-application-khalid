@@ -3,13 +3,20 @@ This is a testing repo for a sample application
 
 ## In this repository I have provisioned a small Node.js application in Azure App Services. Also, I have created the Azure App Service's Infrastructure using Terraform and setup a deployment pipeline using GitHub Actions. 
 A sample app file here is app.js and If we need to setup the Infrastructure IaC service out of this configuration then we just need to select the terraform from the workflow dispatch. 
+
 Some key points: 
+
    1. There are two jobs in the GitHub Workflow a. Build b. Deploy.
-   2. You can select Terraform to deploy with the same configuration in the Azure for Azure App service. It will deploy the same application with the required infrastructure in the Azure App Service. 
-   3. You need to change the Resource group name and Subscription ID (If you want to deploy the new application in some new place in Azure) also with a new App name. 
+  
+   3. You can select Terraform to deploy with the same configuration in the Azure for Azure App service. It will deploy the same application with the required infrastructure in the Azure App Service. 
+  
+   5. You need to change the Resource group name and Subscription ID (If you want to deploy the new application in some new place in Azure) also with a new App name.
 
 
-Incident scenario: ** ** Users had experienced high latency when accessing the application in Azure App Service, and some users received "Request Timeout" errors.
+
+
+
+**Incident scenario:** Users had experienced high latency when accessing the application in Azure App Service, and some users received "Request Timeout" errors.
 
 Detection: Azure provided various monitoring tools that helped detect issues. For detecting this incident, I relied on Azure Monitor and its Application Insights feature.
 
